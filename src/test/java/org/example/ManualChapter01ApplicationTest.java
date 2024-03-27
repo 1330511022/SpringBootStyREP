@@ -1,6 +1,8 @@
 package org.example;
 
 import junit.framework.TestCase;
+import org.example.mysqltest.Comment;
+import org.example.mysqltest.CommentMapper;
 import org.example.propertest.MyProperties;
 import org.example.propertest.Person;
 import org.junit.Test;
@@ -17,6 +19,8 @@ public class ManualChapter01ApplicationTest extends TestCase {
     private Person person;
     @Autowired
     private MyProperties myProperties;
+    @Autowired
+    private CommentMapper commentMapper;
 
     @Test//单元测试示例
     public void func() {
@@ -26,6 +30,11 @@ public class ManualChapter01ApplicationTest extends TestCase {
     @Test
     public void func2() {
         System.out.println(myProperties.toString());
+    }
+    @Test
+    public void func3() {
+        Comment byId = commentMapper.findById(1);
+        System.out.println(byId.toString());
     }
 
 }
