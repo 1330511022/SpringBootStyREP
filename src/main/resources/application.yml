@@ -16,6 +16,8 @@ person:
 #    key1: value1
 #    key2: value2
 
+server:
+  port: 8082
 #数据库连接
 spring:
   datasource:
@@ -30,3 +32,5 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

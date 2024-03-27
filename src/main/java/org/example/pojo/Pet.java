@@ -1,4 +1,4 @@
-package org.example.prjo;
+package org.example.pojo;
 
 public class Pet {
     private String type;

@@ -1,7 +1,9 @@
 package org.example.mapper;
 
 import org.apache.ibatis.annotations.*;
-import org.example.prjo.Comment;
+import org.example.pojo.Comment;
+
+import java.util.List;
 
 /**
  * @Project: SpringDemo
@@ -16,7 +18,7 @@ public interface CommentMapper {
     Comment findById(Integer id);
 
     @Select("select * from t_comment")
-    Comment findAll();
+    List<Comment> findAll();
 
     @Insert("INSERT INTO t_comment(CONTENT, AUTHOR, A_ID)" + "values(#{content},#{author},#{aId})")
     int instComment(Comment comment);

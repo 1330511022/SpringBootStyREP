@@ -1,4 +1,4 @@
-package org.example.prjo;
+package org.example.pojo;
 
 import java.util.List;
 
