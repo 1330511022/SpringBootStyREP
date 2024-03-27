@@ -1,4 +1,4 @@
-package org.example.propertest;
+package org.example.prjo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

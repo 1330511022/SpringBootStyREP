@@ -1,10 +1,10 @@
 package org.example;
 
 import junit.framework.TestCase;
-import org.example.mysqltest.Comment;
-import org.example.mysqltest.CommentMapper;
-import org.example.propertest.MyProperties;
-import org.example.propertest.Person;
+import org.example.prjo.Comment;
+import org.example.mapper.CommentMapper;
+import org.example.prjo.MyProperties;
+import org.example.prjo.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

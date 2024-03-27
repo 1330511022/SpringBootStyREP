@@ -1,4 +1,4 @@
-package org.example.mysqltest;
+package org.example.prjo;
 
 public class Comment {
     private Integer id;

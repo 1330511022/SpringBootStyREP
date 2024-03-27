@@ -1,4 +1,4 @@
-package org.example.propertest;
+package org.example.prjo;
 
 public class Pet {
     private String type;

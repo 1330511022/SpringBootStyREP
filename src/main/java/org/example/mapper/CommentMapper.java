@@ -1,6 +1,7 @@
-package org.example.mysqltest;
+package org.example.mapper;
 
 import org.apache.ibatis.annotations.*;
+import org.example.prjo.Comment;
 
 /**
  * @Project: SpringDemo
