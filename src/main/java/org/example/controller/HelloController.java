@@ -12,25 +12,4 @@ public class HelloController {
         return "Hello World";
     }
 
-    @GetMapping("test")
-    public String test() {
-        return "test";
-    }
-    @GetMapping("test")
-    public String test2() {
-        return "test";
-    }
-    @GetMapping("test")
-    public String test3() {
-        return "test";
-    }
-    @GetMapping("test")
-    public String test4() {
-        return "test";
-    }
-
-    @GetMapping("test")
-    public String test5() {
-        return "test";
-    }
 }
