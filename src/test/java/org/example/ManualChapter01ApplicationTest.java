@@ -36,7 +36,7 @@ public class ManualChapter01ApplicationTest extends TestCase {
 
     @Test
     public void func3() {
-        Comment byId = commentMapper.findById(1);
+        Comment byId = commentMapper.findById(2);
         System.out.println(byId.toString());
     }
     @Test
