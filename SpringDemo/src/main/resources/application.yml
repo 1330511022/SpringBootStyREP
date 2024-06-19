@@ -1,0 +1,51 @@
+person:
+  name: John
+  hobby:
+    - skiing
+    - hiking
+    - fishing
+    - running
+    - swimming
+  family: Smith
+  age: 42
+  id: 1
+  pet:
+    type: dog
+    name: fluffy
+#  map:
+#    key1: value1
+#    key2: value2
+
+server:
+  port: 8082
+
+spring:
+  messages:
+    basename: i18n/login
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+
+
+  #数据库连接
+  datasource:
+    url: "jdbc:mysql://localhost:3306/springbootdata?serverTimezone=UTC"
+    username: root
+    password: "297592781"
+    type: com.alibaba.druid.pool.DruidDataSource
+    dbcp2:
+      initial-size: 20
+      min-idle: 10
+      max-active: 100
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+

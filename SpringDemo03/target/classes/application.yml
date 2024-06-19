@@ -1,0 +1,13 @@
+server:
+  port: 8086
+spring:
+  datasource:
+    username: root
+    password: "297592781"
+    url: jdbc:mysql://localhost:3306/springbootdata?serverTimezone=UTC
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
