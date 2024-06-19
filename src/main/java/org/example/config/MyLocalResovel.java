@@ -27,7 +27,7 @@ public class MyLocalResovel implements LocaleResolver {
         String header = httpServletRequest.getHeader("Accept-Language");
         Locale locale=null;
         // 如果手动切换参数不为空，就根据手动参数进行语言切换，否则默认根据请求头信息切换
-        if(!StringUtils.isEmpty(l)){
+        if(!StringUtils. isEmpty(l)){
             String[] split = l.split("_");
             locale=new Locale(split[0],split[1]);
         }else {
